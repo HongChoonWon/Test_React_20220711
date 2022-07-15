@@ -1,9 +1,11 @@
-import React, { useState } from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import Tester1 from "./compnent/Component1";
-import List from "./compnent/List";
-import Googleling_List from "./compnent/Googleling_List";
+/* eslint-disable react/jsx-pascal-case */
+import React, { useState } from 'react';
+import logo from './logo.svg';
+import './App.css';
+import './css/Comp.css';
+import Tester1 from './compnent/Component1';
+import List from './compnent/List';
+import Thumbnail_Wrapper from './compnent/Thumbnail_Wrapper';
 
 function App() {
   /*  default UI
@@ -38,10 +40,18 @@ return (
   </>
   */
 
-  /*[test] googling 쇼밍몰 List*/
+  /*[test] googling 쇼밍몰 List
   return (
     <>
       <Googleling_List />
+    </>
+  );
+  */
+
+  /*[test] googling 쇼밍몰 List - My Cuntom*/
+  return (
+    <>
+      <Thumbnail_Wrapper />
     </>
   );
 }
