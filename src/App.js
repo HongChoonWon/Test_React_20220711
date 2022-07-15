@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Tester1 from './compnent/Component1';
-import List from './compnent/List';
+import React, { useState } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Tester1 from "./compnent/Component1";
+import List from "./compnent/List";
+import Googleling_List from "./compnent/Googleling_List";
 
 function App() {
-/*  default UI
+  /*  default UI
 return (
     <div className="App">
       <header className="App-header">
@@ -31,14 +32,18 @@ return (
   </>)
   */
 
-  /*[test] step ~ bind + State*/
+  /*[test] step ~ bind + State
   return <>
     <List />
   </>
+  */
 
+  /*[test] googling 쇼밍몰 List*/
+  return (
+    <>
+      <Googleling_List />
+    </>
+  );
 }
 
-
-
 export default App;
-
